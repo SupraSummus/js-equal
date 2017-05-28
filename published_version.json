@@ -1,0 +1,9 @@
+{
+    "example/index.html": "QmRnFBHuvDL8hStNhEEUPdrAcaRnGM2FTSKtiNABiEPYLY",
+    "src/function.js": "QmWtzTXpZqwr8rdFC87josNaLmASeQqX1a4Z1V6W6J5mCN",
+    "src/iterable.js": "QmbKLG5KELijStBSEtPpmthsZ9FMQhpAMG8QcXPjDgjfCK",
+    "src/iterator.js": "QmV63UB5LxtU97dYEg2W7CHnciEVqqcjrD4LZ9VjU9KJHS",
+    "src/object.js": "QmTg7ZVAgPcowZNMetqvdnAyDP1GTaBS72fVebFM6HMwpL",
+    "src/primitive.js": "QmXNBoz82yu52sNi37cKupYUHXKBfKpTz3So6oEYdZ3grJ",
+    "test/index.html": "QmUvrojoK2s1WKH5d33vz2nxMB9o1Zv1aLzotRw7mM8aPv"
+}

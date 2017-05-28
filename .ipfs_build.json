@@ -1,0 +1,23 @@
+{
+    "source_types": {
+        "js_load": {
+            "type": "regexp",
+            "pattern": "load\\('([^']+)'\\)",
+            "replacement": "load('/ipfs/{}')"
+        },
+        "html_src": {
+            "type": "regexp",
+            "pattern": "src=\"([^\"]*)\"",
+            "replacement": "src=\"/ipfs/{}\""
+        }
+    },
+    "sources": {
+        "**/*.js": {"type": "source_type", "name": "js_load"},
+        "**/*.html": {"type": "source_type", "name": "html_src"},
+        "load.js": {"type": "static", "product_id": "QmdVhzE9vvkkcMtswcCZFx6fvW82j8ssiEmip2gvHPsRjT"}
+    },
+    "targets": [
+        "src/**/*.js",
+        "**/*/index.html"
+    ]
+}
